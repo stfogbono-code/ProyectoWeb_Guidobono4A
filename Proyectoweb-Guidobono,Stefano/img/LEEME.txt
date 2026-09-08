@@ -1,5 +1,0 @@
-Poné acá tu logo (logo.png) y las imágenes propias:
-- python-historia.png, python-sintaxis.png, python-usos.png (para pagina1.html)
-
-Si no agregás las imágenes, el navegador va a mostrar el ícono
-de "imagen rota" en su lugar, pero el resto de la página funciona igual.
