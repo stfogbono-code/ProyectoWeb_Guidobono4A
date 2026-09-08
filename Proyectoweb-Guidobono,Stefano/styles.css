@@ -1,34 +1,26 @@
 @charset "utf-8";
 
-/* ==============================================
-   RESET GENERAL
-   ============================================== */
+
 * {
   margin: 0px;
   border: 0px;
   padding: 0px;
 }
 
-/* ==============================================
-   BODY
-   ============================================== */
+
 body {
   background-color: #dfe4ea;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ==============================================
-   CONTENEDOR GENERAL
-   ============================================== */
+
 #contenedor {
   margin: auto;
   width: 90%;
   height: auto;
 }
 
-/* ==============================================
-   ENCABEZADO
-   ============================================== */
+
 #encabezado {
   background-color: #1b2430;
   height: 100px;
@@ -71,9 +63,7 @@ body {
   color: #f7df1e;
 }
 
-/* ==============================================
-   BANNER DEL INDEX
-   ============================================== */
+/* BANNER DEL INDEX*/
 #banner {
   background-repeat: no-repeat;
   background-position: center center;
@@ -82,9 +72,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* ==============================================
-   CENTRO DEL INDEX
-   ============================================== */
+/*CENTRO DEL INDEX*/
 #centro {
   background-color: #eef2f6;
   height: auto;
@@ -162,9 +150,7 @@ body {
   background-color: #00878f;
 }
 
-/* ==============================================
-   FOOTER
-   ============================================== */
+
 #footer {
   text-align: center;
   padding: 20px;
@@ -180,9 +166,7 @@ body {
   line-height: 20px;
 }
 
-/* ==============================================
-   PAGINA 1 - PYTHON
-   ============================================== */
+/* PAGINA 1 - PYTHON */
 #caja1 {
   width: 100%;
   height: auto;
@@ -262,9 +246,7 @@ body {
   margin-left: 25px;
 }
 
-/* ==============================================
-   PAGINA 2 - JAVASCRIPT
-   ============================================== */
+/* PAGINA 2 - JAVASCRIPT */
 .pagina-flex {
   display: flex;
   flex-direction: column;
@@ -327,9 +309,7 @@ body {
   background-color: #444444;
 }
 
-/* ==============================================
-   PAGINA 3 - C++
-   ============================================== */
+/* PAGINA 3 - C++ */
 #banner-cpp {
   height: 300px;
   background-color: #004482;
@@ -376,9 +356,7 @@ body {
   padding-left: 15px;
 }
 
-/* ==============================================
-   PAGINA 4 - JAVA
-   ============================================== */
+/* PAGINA 4 - JAVA */
 #titulo-java {
   height: 100px;
   background-color: #e36c2f;
@@ -453,9 +431,7 @@ body {
   padding-left: 15px;
 }
 
-/* ==============================================
-   PAGINA 5 - PHP
-   ============================================== */
+/* PAGINA 5 - PHP */
 #titulo-php {
   height: 100px;
   background-color: #777bb4;
@@ -530,9 +506,7 @@ body {
   padding-left: 20px;
 }
 
-/* ==============================================
-   PAGINA 6 - ARDUINO
-   ============================================== */
+/* PAGINA 6 - ARDUINO */
 #titulo-arduino {
   height: 100px;
   background-color: #00878f;
