@@ -1,0 +1,608 @@
+@charset "utf-8";
+
+/* ==============================================
+   RESET GENERAL
+   ============================================== */
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+/* ==============================================
+   BODY
+   ============================================== */
+body {
+  background-color: #dfe4ea;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ==============================================
+   CONTENEDOR GENERAL
+   ============================================== */
+#contenedor {
+  margin: auto;
+  width: 90%;
+  height: auto;
+}
+
+/* ==============================================
+   ENCABEZADO
+   ============================================== */
+#encabezado {
+  background-color: #1b2430;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#encabezado img {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#encabezado ul {
+  float: right;
+  width: 700px;
+  height: 40px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+#encabezado ul li {
+  float: left;
+  width: 100px;
+  list-style-type: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+#encabezado ul li a {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#encabezado ul li a:hover {
+  color: #f7df1e;
+}
+
+/* ==============================================
+   BANNER DEL INDEX
+   ============================================== */
+#banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  background-image: url(img/banner-lenguajes.png);
+  margin-bottom: 20px;
+}
+
+/* ==============================================
+   CENTRO DEL INDEX
+   ============================================== */
+#centro {
+  background-color: #eef2f6;
+  height: auto;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.cajas {
+  float: left;
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 1.5%;
+  margin-bottom: 20px;
+  margin-left: 1.5%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cajas h3 {
+  padding-top: 15px;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-transform: uppercase;
+}
+
+.cajas .imagen {
+  background-color: #ffffff;
+  height: 150px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.cajas .imagen img {
+  display: block;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.cajas p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.caja1 {
+  background-color: #306998;
+}
+
+.caja2 {
+  background-color: #c9ad00;
+}
+
+.caja3 {
+  background-color: #004482;
+}
+
+.caja4 {
+  background-color: #e36c2f;
+}
+
+.caja5 {
+  background-color: #777bb4;
+}
+
+.caja6 {
+  background-color: #00878f;
+}
+
+/* ==============================================
+   FOOTER
+   ============================================== */
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1b2430;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#footer p {
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* ==============================================
+   PAGINA 1 - PYTHON
+   ============================================== */
+#caja1 {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#caja1 h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 32px;
+  line-height: 70px;
+  color: #ffffff;
+  background-color: #306998;
+  text-align: center;
+}
+
+#caja1 h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  color: #306998;
+}
+
+#caja1 ul li {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+  list-style-type: square;
+  color: #333333;
+}
+
+#caja1 ul li a {
+  color: #ffd43b;
+  background-color: #306998;
+  padding-top: 2px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  text-decoration: none;
+}
+
+#caja1 h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  color: #306998;
+}
+
+#caja1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 0px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  line-height: 22px;
+  color: #333333;
+}
+
+#caja1 img {
+  display: block;
+  margin: auto;
+}
+
+#caja1 hr {
+  margin-top: 15px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+/* ==============================================
+   PAGINA 2 - JAVASCRIPT
+   ============================================== */
+.pagina-flex {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  background-color: #f7df1e;
+  margin-bottom: 20px;
+}
+
+.centro-js {
+  align-self: center;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 15px;
+}
+
+.texto-js {
+  align-self: center;
+  width: 70%;
+  text-align: justify;
+  color: #222222;
+  margin-bottom: 15px;
+}
+
+.caja-js {
+  background-color: #222222;
+  color: #f7df1e;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  font-weight: bold;
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.caja-izquierda-js {
+  align-self: flex-start;
+}
+
+.caja-derecha-js {
+  align-self: flex-end;
+}
+
+.btn-js {
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f7df1e;
+  background-color: #222222;
+  transition: background-color 0.3s;
+}
+
+.btn-js:hover {
+  background-color: #444444;
+}
+
+/* ==============================================
+   PAGINA 3 - C++
+   ============================================== */
+#banner-cpp {
+  height: 300px;
+  background-color: #004482;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#centro-cpp {
+  background-color: #eef4fb;
+  height: auto;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.cajas-cpp {
+  float: left;
+  width: 28%;
+  margin-top: 20px;
+  margin-right: 2.6%;
+  margin-bottom: 20px;
+  margin-left: 2.6%;
+  background-color: #004482;
+  color: #ffffff;
+}
+
+.cajas-cpp h3 {
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 15px;
+  color: #ffac45;
+}
+
+.cajas-cpp p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+/* ==============================================
+   PAGINA 4 - JAVA
+   ============================================== */
+#titulo-java {
+  height: 100px;
+  background-color: #e36c2f;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#titulo-java h1 {
+  line-height: 100px;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#presentacion-java {
+  background-color: #ffffff;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+#presentacion-java img {
+  float: left;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#presentacion-java p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 22px;
+  padding-top: 55px;
+  padding-right: 40px;
+  color: #333333;
+}
+
+#centro-java {
+  background-color: #f5ede8;
+  height: auto;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.cajas-java {
+  float: left;
+  width: 28%;
+  margin-top: 20px;
+  margin-right: 2.6%;
+  margin-bottom: 20px;
+  margin-left: 2.6%;
+  background-color: #e36c2f;
+  color: #ffffff;
+}
+
+.cajas-java h3 {
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.cajas-java p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+/* ==============================================
+   PAGINA 5 - PHP
+   ============================================== */
+#titulo-php {
+  height: 100px;
+  background-color: #777bb4;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#titulo-php h1 {
+  line-height: 100px;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#presentacion-php {
+  background-color: #ffffff;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+#presentacion-php img {
+  display: block;
+  margin: auto;
+}
+
+#presentacion-php p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  color: #333333;
+}
+
+#centro-php {
+  background-color: #eeeeee;
+  height: auto;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.cajas-php {
+  width: 90%;
+  margin-top: 15px;
+  margin-right: 5%;
+  margin-bottom: 15px;
+  margin-left: 5%;
+  background-color: #777bb4;
+  color: #ffffff;
+}
+
+.cajas-php h3 {
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.cajas-php p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 22px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+/* ==============================================
+   PAGINA 6 - ARDUINO
+   ============================================== */
+#titulo-arduino {
+  height: 100px;
+  background-color: #00878f;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#titulo-arduino h1 {
+  line-height: 100px;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#presentacion-arduino {
+  background-color: #ffffff;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+#presentacion-arduino img {
+  float: left;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#presentacion-arduino p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 22px;
+  padding-top: 55px;
+  padding-right: 40px;
+  color: #333333;
+}
+
+#centro-arduino {
+  background-color: #e6f3f4;
+  height: auto;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.cajas-arduino {
+  float: left;
+  width: 28%;
+  margin-top: 20px;
+  margin-right: 2.6%;
+  margin-bottom: 20px;
+  margin-left: 2.6%;
+  background-color: #00878f;
+  color: #ffffff;
+}
+
+.cajas-arduino h3 {
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.cajas-arduino p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
